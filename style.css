@@ -1,0 +1,87 @@
+body
+{
+    background-color: aquamarine;
+}
+form
+{
+    background-color: aqua;
+    font-family: sans-serif;
+    max-width: 350px;
+    height: auto;
+    margin: auto;
+    padding: 1.5rem;
+    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.386);
+    border: 2px solid black;
+    border-radius: 2rem;
+}
+.Heading1
+{
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
+.Heading2
+{
+    margin-bottom: 1rem;
+}
+.Heading3
+{
+    margin-bottom: 0.5rem;
+}
+#PasswordLength
+{
+    text-align: center;
+    margin-top: 0rem;
+    box-sizing: border-box;
+}
+/* #PasswordLength:hover
+{
+    margin: 0.1rem;
+    border: 0.2rem solid aquamarine;
+    transition: border 0.2s ease-in-out, margin 0.2s ease-in-out;
+    outline: 0px solid black;
+    box-sizing: border-box;
+}
+#PasswordLength:focus
+{
+    margin: 0.1rem;
+    border: 0.2rem solid aquamarine;
+    outline: 0px solid black;
+    box-sizing: border-box;
+} */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.CapitalAlphabet, .SmallAlphabet, .Numbers, .SpeacialCharacters
+{
+    accent-color: aquamarine;
+    outline: none;
+    margin: 0.5rem;
+}
+/* .CapitalAlphabet:hover, .SmallAlphabet:hover, .Numbers:hover, .SpeacialCharacters:hover
+{
+    accent-color: aquamarine;
+    outline: none;
+
+    margin: 0.6rem;
+    color: aquamarine;
+    transition: color 0.2s ease-in-out, margin 0.2s ease-in-out;
+    outline: 0px solid black;
+} */
+#button
+{
+    display: block;
+    border: none;
+    background-color: aquamarine;
+    padding: 0.5rem 1rem;
+    outline: none;
+    margin: auto;
+    margin-top: 1rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+}
+#button:hover
+{
+    background-color: rgb(59, 234, 175);
+}
