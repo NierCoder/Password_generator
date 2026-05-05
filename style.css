@@ -33,21 +33,20 @@ form
     margin-top: 0rem;
     box-sizing: border-box;
 }
-/* #PasswordLength:hover
+#PasswordLength:hover
 {
-    margin: 0.1rem;
-    border: 0.2rem solid aquamarine;
-    transition: border 0.2s ease-in-out, margin 0.2s ease-in-out;
+    /* margin: 0.1rem; */
+    /* border: 0.2rem solid aquamarine; */
     outline: 0px solid black;
     box-sizing: border-box;
 }
 #PasswordLength:focus
 {
-    margin: 0.1rem;
-    border: 0.2rem solid aquamarine;
+    /* margin: 0.1rem; */
+    /* border: 0.2rem solid aquamarine; */
     outline: 0px solid black;
     box-sizing: border-box;
-} */
+}
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
@@ -59,16 +58,6 @@ input::-webkit-inner-spin-button {
     outline: none;
     margin: 0.5rem;
 }
-/* .CapitalAlphabet:hover, .SmallAlphabet:hover, .Numbers:hover, .SpeacialCharacters:hover
-{
-    accent-color: aquamarine;
-    outline: none;
-
-    margin: 0.6rem;
-    color: aquamarine;
-    transition: color 0.2s ease-in-out, margin 0.2s ease-in-out;
-    outline: 0px solid black;
-} */
 #button
 {
     display: block;
@@ -78,10 +67,27 @@ input::-webkit-inner-spin-button {
     outline: none;
     margin: auto;
     margin-top: 1rem;
+    margin-bottom: 1rem;
     font-size: 1rem;
     border-radius: 0.5rem;
+
 }
 #button:hover
 {
     background-color: rgb(59, 234, 175);
+}
+.Result
+{
+    background-color: white;
+    width: 50%;
+    margin: auto;
+    font-size: 1rem;
+    overflow-wrap: break-word;
+    border-radius: 0.5rem;
+    padding: 0.2rem;
+    outline: 0.1rem solid rgba(0, 0, 0, 0.155);
+}
+.PasswordResult
+{
+    font-family: italic;
 }

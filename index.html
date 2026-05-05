@@ -10,7 +10,7 @@
     <form action="">
         <h1 class="Heading1">Password Generator</h1><br>
         <h3 class="Heading2">Enter the length of the password:</h3>
-        <input type="number" name="PasswordLength" id="PasswordLength">
+        <input value="1" type="number" name="PasswordLength" id="PasswordLength">
 
         <h3 class="Heading3">Choose what to include:</h2>
         <input type="checkbox" name="CapitalAlphabet" class="CapitalAlphabet" id="CapitalAlphabet">
@@ -23,12 +23,12 @@
         <label for="Numbers" class="Numbers">Numbers</label>
         <br>
         <input type="checkbox" name="SpeacialCharacters" class="SpeacialCharacters" id="SpeacialCharacters">
-        <label for="SpeacialCharacters" class="SpeacialCharacters">Speacial Characters</label>
+        <label for="SpeacialCharacters" class="SpeacialCharacters">Speacial Characters (-_#@%&!/())</label>
         <br>
-        <button type="button" id="button">Generate</button>
+        <button type="button" id="button" onclick="PasswordGenerator()">Generate</button>
 
         <div class="Result">
-            <p class="PasswordResult"></p>
+            <p class="PasswordResult">Your Password will be displayed here.</p>
         </div>
         
     </form>
